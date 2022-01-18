@@ -23,7 +23,7 @@ export default function MobileMenu() {
           <span></span>
         </div>
         <nav data='mobile-navigation'>
-          <ul className={css.menuList} data='menu-list' >
+          <ul className={css.menuList} data='menu-list' onClick={handleToggle}>
             <MenuList />
           </ul>
         </nav>

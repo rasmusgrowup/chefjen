@@ -12,17 +12,39 @@
   margin: 0 auto;
   max-width: 720px;
 
+  @media (max-width: $l) {
+    display: block;
+    text-align: center;
+  }
+
   h3 {
     margin-right: 2rem;
+
+    @media (max-width: $l) {
+      margin-right: 0;
+    }
   }
 
   .linkInner {
     align-items: center;
     display: flex;
 
+    @media (max-width: $l) {
+      justify-content: center;
+      margin-bottom: 0.5rem;
+    }
+
     span {
       margin-left: 0.5rem;
       margin-right: 2rem;
+
+      @media (max-width: $l) {
+        margin-right: 0;
+      }
     }
   }
+}
+
+.socialLink:hover span {
+  text-decoration: underline;
 }

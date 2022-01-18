@@ -16,7 +16,7 @@ function Meta({ title, keywords, description }) {
 export default Meta
 
 Meta.defaultProps = {
-  title: 'Chefjen | Catering, Hverdagsmad & Private Dining fra Aalborg',
+  title: 'Chefjen | Catering, Mad-ud-af-huset, Private Dining og Selskabslokaler i Aalborg',
   keywords: 'Kommerciel, foto, video, fotografering, videoproduktion, pack-shots, professionel, odense, centrum, Stöj, uddannede fotografer, uddannet fotograf',
   description: 'Vi skyder kommercielle billeder for landets største mediehuse, og arbejder med konceptudvikling for mindre virksomheder og start-ups. Vi er drevet af en passion for vores fag og sætter en ære i grundighed.'
 }

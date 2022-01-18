@@ -1,0 +1,63 @@
+@import 'sizes.scss';
+
+.howWrapper {
+  margin: 6rem auto;
+  max-width: var(--maxWidth);
+  text-align: center;
+}
+
+.howTitle {
+  font-size: 2em;
+  margin-bottom: 4rem;
+
+  @media (max-width: $l) {
+    font-size: 1.75em;
+    margin-bottom: 2rem;
+  }
+}
+
+.howInner {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  padding: 0 2rem;
+
+  @media (max-width: $l) {
+    display: block;
+  }
+
+  .point {
+    max-width: 400px;
+    padding: 0 2rem;
+
+    @media (max-width: $l) {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.faq {
+  display: flex;
+  margin: 6rem auto;
+  max-width: var(--maxWidth);
+  padding: 0 4rem;
+  text-align: left;
+
+  @media (max-width: $l) {
+    display: block;
+    padding: 1rem;
+  }
+
+  .faqTitle {
+    flex: 2;
+    font-size: 2em;
+
+    @media (max-width: $l) {
+      font-size: 1.75em;
+    }
+  }
+
+  .questions {
+    flex: 3;
+  }
+}

@@ -1,0 +1,48 @@
+@import 'sizes';
+
+.wrapper {
+  margin: 4rem auto;
+  max-width: var(--maxWidth);
+  text-align: center;
+}
+
+.courseTitle {
+  font-size: 2em;
+}
+
+.courseText {
+  margin: 0 auto 2rem;
+  max-width: 500px;
+  padding: 0 1rem;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 4rem auto;
+  padding: 0 3rem;
+  place-items: center;
+
+  @media (max-width: $l) {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+  }
+
+  @media (max-width: $s) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.dish {
+  align-self: flex-start;
+  margin: 0 1rem 4rem;
+  max-width: 370px;
+
+  h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    margin: 0;
+  }
+}

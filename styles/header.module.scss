@@ -1,14 +1,10 @@
 @import 'sizes.scss';
 
 .header {
-  align-items: center;
   color: var(--white);
-  display: flex;
-  justify-content: space-between;
   left: 0;
   margin: 0 auto;
-  mix-blend-mode: screen;
-  padding: 1rem;
+  padding: 1.5rem;
   position: fixed;
   right: 0;
   top: 0;
@@ -17,8 +13,34 @@
   width: 100%;
   z-index: 99;
 
+  .headerInner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: var(--maxWidth);
+  }
+
   .greenLogo {
     display: none;
+  }
+
+  @media (max-width: $l) {
+    background-color: var(--white);
+    color: var(--green);
+    padding: 1rem;
+
+    .greenLogo {
+      display: block;
+    }
+
+    .whiteLogo {
+      display: none;
+    }
+
+    .contactBtn {
+      border-color: var(--green);
+    }
   }
 }
 

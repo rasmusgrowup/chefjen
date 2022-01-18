@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import React from 'react'
 
 import css from '../styles/footer.module.scss'
 import WhiteButton from '../components/WhiteButton'
@@ -18,11 +19,11 @@ export default function Footer() {
           </div>
         </div>
         <div className={css.footerBottom}>
-          <span className={css.cvr}>© ChefJen 2021 — CVR 37440175</span>
           <ul className={css.terms}>
             <li><Link href='/'><a>Handelsbetingelser</a></Link></li>
             <li><Link href='/'><a>Persondatapolitik</a></Link></li>
           </ul>
+          <span className={css.cvr}>©{new Date().getFullYear()} ChefJen — CVR 37440175</span>
           <ul className={css.socials}>
             <li><Link href='/'><a><Image src={Facebook} width='18' height='18'/></a></Link></li>
             <li><Link href='/'><a><Image src={Instagram} width='18' height='18' /></a></Link></li>

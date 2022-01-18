@@ -1,0 +1,132 @@
+@import 'sizes.scss';
+
+.hero {
+  margin: 6rem auto 3rem;
+
+  @media (max-width: $l) {
+    margin: 4rem auto;
+  }
+}
+
+.heroInner {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  max-width: var(--maxWidth);
+  padding: 4rem;
+
+  @media (max-width: $l) {
+    display: block;
+    padding: 0;
+  }
+
+  .container {
+    flex: 1;
+    min-width: 440px;
+    padding-right: 6rem;
+
+    @media (max-width: $l) {
+      margin-bottom: 2rem;
+      min-width: auto;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 2.25em;
+
+      @media (max-width: $l) {
+        font-size: 2em;
+      }
+    }
+
+    .titleTerms {
+      opacity: 0.5;
+    }
+
+    p {
+      margin: 2rem 0;
+    }
+  }
+
+  .image {
+    flex: 2;
+    //margin-right: 25px;
+
+    @media (max-width: $l) {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (min-width: $l) {
+  .portrait,
+  .landscape {
+    //-webkit-box-shadow: 25px 25px 0px 0px rgba(13,52,54,1);
+    //-moz-box-shadow: 25px 25px 0px 0px rgba(13,52,54,1);
+    //box-shadow: 25px 25px 0px 0px rgba(13,52,54,1);
+  }
+}
+
+.portrait {
+  display: none;
+}
+
+@media (max-width: $xl) {
+  .landscape {
+    display: none;
+  }
+  .portrait {
+    display: block;
+  }
+}
+
+@media (max-width: $l) {
+  .landscape {
+    display: block;
+  }
+  .portrait {
+    display: none;
+  }
+}
+
+.forret {
+  margin: 0 auto;
+  max-width: var(--maxWidth)
+}
+
+.cta {
+  background-color: var(--green);
+  color: white;
+  margin: 3rem auto;
+  text-align: center;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+  position: relative;
+
+  @media (max-width: $l) {
+    margin: 4rem auto;
+  }
+
+  h2,
+  p {
+    max-width: 440px;
+    margin: 0 auto 1rem;
+  }
+
+  p {
+    margin-bottom: 2rem;
+  }
+
+  span {
+    display: block;
+    font-weight: 300;
+    margin-top: 1rem;
+    opacity: 0.5;
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}

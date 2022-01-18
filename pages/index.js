@@ -16,15 +16,23 @@ export default function Home() {
     <>
       <Hero />
       <section className={css.subHeader}>
-        <div className={css.leftContent}>
-          <h2>En frisk frokostordning</h2>
-          <p>Vi tilbyder nemme og lækre frokostordninger til virksomheder i Aalborg omegn. Tegn et fast abonnement på frokosten, og få den leveret hver dag til en god pris.</p>
-          <Button href='/' text='Få et tilbud' />
-        </div>
-        <div className={css.rightContent}>
-          <h2>Vi laver også aftensmad</h2>
-          <p>Dagens ret er et alternativ til fastfood og uden bøvl og besvær. Vi har fokus på gode klassikere fra verdenskøkkenet, tilsmagt de danske smagsløg.</p>
-          <Button href='/' text='Bestil dagens ret' />
+        <h2 className={css.subHeaderTitle}>Vi tilbyder desuden</h2>
+        <div className={css.subHeaderInner}>
+          <div className={css.leftContent}>
+            <h3>Frisk frokostordning</h3>
+            <p>Vi tilbyder nemme og lækre frokostordninger til virksomheder i Aalborg omegn. Tegn et fast abonnement på frokosten, og få den leveret hver dag til en god pris.</p>
+            <Button href='/' text='Få et tilbud' />
+          </div>
+          <div className={css.middleContent}>
+            <h3>Nem aftensmad</h3>
+            <p>Har i lyst til nem aftensmad, der er sundt og lækkert? Så prøv vores 'dagens ret' koncept — slip for indkøb og madlavning, men sig hej til dejlig og varieret mad ud af huset.</p>
+            <Button href='/' text='Bestil dagens ret' />
+          </div>
+          <div className={css.rightContent}>
+            <h3>Selskabslokaler</h3>
+            <p>Vores smukke lokaler kan danne ramme om jeres næste festlige begivenhed, vigtige forretningsmøder eller frokoster med nære venner. Kig ned i restauranten, eller tag kontakt her.</p>
+            <Button href='/' text='Lej vores lokaler' />
+          </div>
         </div>
       </section>
       <section className={css.quoteSection}>
@@ -34,13 +42,13 @@ export default function Home() {
       </section>
       <section className={css.forretSection}>
         <div className={css.forretLeft}>
-          <Image src={Forret} layout='responsive' sizes='50vw'/>
+          <Image src={Forret} layout='responsive' sizes='50vw' quality='100'/>
         </div>
         <div className={css.forretRight}>
           <div className={css.rightInner}>
-            <h3>Festmenu fra 199,-*</h3><span>*pr. kuvert ved min. 10 kuverter</span>
+            <h3>Selskabsmad fra 199,-*</h3><span>*pr. kuvert ved min. 10 kuverter</span>
             <p>Vi har menuer som passer godt til konfirmationer, højtider og andre store begivenheder, såsom bryllupper, jubilæer, runde fødselsdage, firmaarrangementer m.m.</p>
-              <Button href='/' text='Se aktuelle menuer' />
+              <Button href='/catering' text='Se aktuelle menuer' />
           </div>
         </div>
       </section>
@@ -54,7 +62,7 @@ export default function Home() {
           </div>
         </div>
         <div className={css.privateDiningRight}>
-          <Image src={Jen} layout='responsive' objectPosition='bottom' objectFit='cover' sizes='50vw'/>
+          <Image src={Jen} layout='responsive' objectPosition='bottom' objectFit='cover' sizes='50vw' quality='100'/>
         </div>
       </section>
       <Socials />
