@@ -1,0 +1,68 @@
+@import 'sizes.scss';
+
+.header {
+  align-items: center;
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  margin: 0 auto;
+  mix-blend-mode: screen;
+  padding: 1rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: 0.2s;
+  transition-property: background-color;
+  width: 100%;
+  z-index: 99;
+
+  .greenLogo {
+    display: none;
+  }
+}
+
+.logoWrapper {
+  width: 8rem;
+
+  @media (max-width: $l) {
+    width: 6rem;
+  }
+}
+
+.buttonsWrapper {
+  display: flex;
+}
+
+.contactBtn {
+  align-items: center;
+  border: 1px solid var(--white);
+  display: flex;
+  font-size: 0.75em;
+  font-weight: bold;
+  height: 2rem;
+  line-height: 1;
+  margin-right: 0.25rem;
+  padding: 0 1rem;
+  text-transform: uppercase;
+}
+
+.greenHeader {
+  background-color: var(--white);
+  color: var(--green);
+  mix-blend-mode: normal;
+  transition: 0.2s;
+  transition-property: background-color;
+
+  .whiteLogo {
+    display: none;
+  }
+
+  .greenLogo {
+    display: block;
+  }
+
+  .contactBtn {
+    border-color: var(--green);
+  }
+}

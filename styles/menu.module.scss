@@ -1,0 +1,21 @@
+@import 'sizes.scss';
+
+.menuList {
+  align-items: center;
+  display: flex;
+
+  @media (max-width: $xl) {
+    display: none;
+  }
+
+  li {
+    margin: 0 1rem;
+    font-size: 0.85em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  li:hover {
+    text-decoration: underline;
+  }
+}

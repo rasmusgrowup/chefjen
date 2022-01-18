@@ -1,9 +1,24 @@
 html,
 body {
-  padding: 0;
+  color: var(--green);
+  font-family:
+    'Helvetica Neue',
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    sans-serif;
+  font-size: 16px;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  padding: 0;
+  width: 100%;
 }
 
 a {
@@ -11,6 +26,29 @@ a {
   text-decoration: none;
 }
 
+p {
+  line-height: 1.5;
+  margin: 1rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1rem 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 * {
   box-sizing: border-box;
+}
+
+:root {
+  --green: #0d3436;
+  --white: #fff;
+  --black: #000;
+  --maxWidth: 1440px;
+  --line: #D6D6D6;
 }

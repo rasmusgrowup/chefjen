@@ -1,0 +1,34 @@
+import Link from 'next/link'
+import Image from 'next/image'
+
+import css from '../styles/footer.module.scss'
+import WhiteButton from '../components/WhiteButton'
+import Instagram from '../public/Instagram_white.svg'
+import Facebook from '../public/Facebook_white.svg'
+
+export default function Footer() {
+  return(
+    <>
+      <footer className={css.footer}>
+        <div className={css.footerInner}>
+          <div className={css.contactWrapper}>
+            <h3>Kontakt os</h3>
+            <p>Hos Chef Jen går vi op i at maden skal mætte, smage godt, og at der skal være rigeligt af det. Vores retter består af traditionelt dansk mad - typisk baseret på en god blanding af kød, fisk, lækre salater og hjemmebagt brød - tilsat et strejf af Thailand. Velbekomme!</p>
+            <WhiteButton href='mailto:kontakt@chefjen.dk' text='kontakt@chefjen.dk' />
+          </div>
+        </div>
+        <div className={css.footerBottom}>
+          <span className={css.cvr}>© ChefJen 2021 — CVR 37440175</span>
+          <ul className={css.terms}>
+            <li><Link href='/'><a>Handelsbetingelser</a></Link></li>
+            <li><Link href='/'><a>Persondatapolitik</a></Link></li>
+          </ul>
+          <ul className={css.socials}>
+            <li><Link href='/'><a><Image src={Facebook} width='18' height='18'/></a></Link></li>
+            <li><Link href='/'><a><Image src={Instagram} width='18' height='18' /></a></Link></li>
+          </ul>
+        </div>
+      </footer>
+    </>
+  )
+}

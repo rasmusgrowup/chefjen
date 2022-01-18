@@ -1,0 +1,28 @@
+@import 'sizes.scss';
+
+.socialsSection {
+  margin: 2rem auto;
+  padding: 2rem 0;
+}
+
+.socialsInner {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 720px;
+
+  h3 {
+    margin-right: 2rem;
+  }
+
+  .linkInner {
+    align-items: center;
+    display: flex;
+
+    span {
+      margin-left: 0.5rem;
+      margin-right: 2rem;
+    }
+  }
+}
