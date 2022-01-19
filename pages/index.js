@@ -25,7 +25,7 @@ export default function Home() {
           </div>
           <div className={css.middleContent}>
             <h3>Nem aftensmad</h3>
-            <p>Har i lyst til nem aftensmad, der er sundt og lækkert? Så prøv vores 'dagens ret' koncept — slip for indkøb og madlavning, men sig hej til dejlig og varieret mad ud af huset.</p>
+            <p>Har i lyst til nem aftensmad, der er sundt og lækkert? Så prøv vores dagens ret koncept — slip for indkøb og madlavning, men sig hej til dejlig og varieret mad ud af huset.</p>
             <Button href='/' text='Bestil dagens ret' />
           </div>
           <div className={css.rightContent}>
