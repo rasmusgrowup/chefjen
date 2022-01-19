@@ -9,7 +9,7 @@ import How from '../components/How'
 import css from '../styles/private.module.scss'
 
 import Jen from '../public/Jen.jpg'
-import Forret from '../public/Forret_anrettet.jpg'
+import Forret from '../public/forret_anrettet.jpg'
 
 export default function PrivateDining() {
   const hero = useRef(null);
