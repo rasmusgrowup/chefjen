@@ -22,49 +22,49 @@ export default function Course() {
         <Button href='/' text='se alle vores retter'/>
         <div className={css.inner}>
           <div className={css.dish}>
-            <div className={css.imageWrapper}><Image src={Forret} width='370' height='280' objectFit='cover' quality='100'/></div>
-            <h3>Forret</h3>
+            <div className={css.imageWrapper}><Image src={Forret} width='370' height='300' objectFit='cover' objectPosition='center' quality='80'/></div>
+            <h3>Anrettet forret</h3>
             <p><strong>Hvid fisk</strong> · spinat · cherrytomat · bøgehat · bacon · brøndkarse · serveret med sauce vin blanc</p>
           </div>
           <div className={css.dish}>
-            <div className={css.imageWrapper}><Image src={Culotte} width='370' height='280' objectFit='cover' quality='100'/></div>
+            <div className={css.imageWrapper}><Image src={Culotte} width='370' height='300' objectFit='cover' objectPosition='center' quality='80'/></div>
             <h3>Kød</h3>
             <p><strong>Kalveculotte</strong> · stegte bøgehatte · klassisk brun sovs · brøndkarse</p>
           </div>
           <div className={css.dish}>
-            <div className={css.imageWrapper}><Image src={Laks} width='370' height='280' objectFit='cover' quality='100'/></div>
+            <div className={css.imageWrapper}><Image src={Laks} width='370' height='300' objectFit='cover' objectPosition='center' quality='80'/></div>
             <h3>Fisk</h3>
             <p><strong>Lakseside</strong> · bagt med krydderurtepesto · marineret i lime · perfekt tilberedt</p>
           </div>
           <div className={css.dish}>
-            <div className={css.imageWrapper}><Image src={Radicchio} width='370' height='280' objectFit='cover' quality='100'/></div>
+            <div className={css.imageWrapper}><Image src={Radicchio} width='370' height='300' objectFit='cover' objectPosition='center' quality='80'/></div>
             <h3>Salat</h3>
             <p><strong>Radicchiosalat</strong> · eddamammebønner · blåbær granatæblesylt · brøndkarse · hindbærvinaigrette</p>
           </div>
           <div className={css.dish}>
-            <div className={css.imageWrapper}><Image src={Blomkaal} width='370' height='280' objectFit='cover' quality='100'/></div>
+            <div className={css.imageWrapper}><Image src={Blomkaal} width='370' height='300' objectFit='cover' objectPosition='center' quality='80'/></div>
             <h3>Salat</h3>
             <p><strong>Blomkålsalat</strong> · saltmandler · grana padano · persille · sød sennepsvinaigrette</p>
           </div>
           <div className={css.dish}>
-            <div className={css.imageWrapper}><Image src={Tomat} width='370' height='280' objectFit='cover' quality='100'/></div>
+            <div className={css.imageWrapper}><Image src={Tomat} width='370' height='300' objectFit='cover' objectPosition='center' quality='80'/></div>
             <h3>Salat</h3>
             <p><strong>Tomatsalat</strong> · rødløg · mozzarella · basilikumspesto</p>
           </div>
           <div className={css.dish}>
-            <div className={css.imageWrapper}><Image src={Kartofler} width='370' height='280' objectFit='cover' quality='100'/></div>
+            <div className={css.imageWrapper}><Image src={Kartofler} width='370' height='300' objectPosition='center' objectFit='cover' quality='80'/></div>
             <h3>Grøntsager</h3>
             <p><strong>Kartofler</strong> · sprøde · ovnbagte · stegt m. hvidløg</p>
           </div>
           <div className={css.dish}>
-            <div className={css.imageWrapper}><Image src={Broed} width='370' height='280' objectFit='cover' quality='100'/></div>
+            <div className={css.imageWrapper}><Image src={Broed} width='370' height='300' objectFit='cover' objectPosition='center' quality='80'/></div>
             <h3>Brød</h3>
             <p><strong>Foccacia & ciabatta</strong> · langtidshævet · hjemmebagt · smør · chiliolie · chilipesto</p>
           </div>
           <div className={css.dish}>
-            <div className={css.imageWrapper}><Image src={Is} width='370' height='280' objectFit='cover' quality='100'/></div>
+            <div className={css.imageWrapper}><Image src={Is} width='370' height='300' objectFit='cover' objectPosition='center' quality='80'/></div>
             <h3>Dessert</h3>
-            <p><strong>Tomatsalat</strong> · rødløg · mozzarella · basilikumspesto</p>
+            <p><strong>Vaniljeis</strong> · hjemmerørt · sprød mandelbund · flødeskum · friske bær</p>
           </div>
         </div>
       </div>

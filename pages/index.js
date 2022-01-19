@@ -38,7 +38,7 @@ export default function Home() {
       <section className={css.quoteSection}>
         <h3 className={css.quote}>Som vært er man altid lidt spændt når der skal holdes fest for så mange gæster, men med Chef Jen som leverandør, kan du godt læne dig tilbage, og tage imod gæsternes ros for dejlig mad.</h3>
         <span className={css.quoteName}>Mette Bruun Svendsen</span>
-        <Link href='/'><a className={css.quoteLink}>Se flere facebook anmeldelser</a></Link>
+        <Link href='https://www.facebook.com/Chefjendk/reviews/?ref=page_internal'><a  target='_blank' className={css.quoteLink}>Se flere facebook anmeldelser</a></Link>
       </section>
       <section className={css.forretSection}>
         <div className={css.forretLeft}>

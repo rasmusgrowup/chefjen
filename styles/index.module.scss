@@ -214,6 +214,7 @@
 .privateDining {
   align-items: stretch;
   display: flex;
+  text-align: center;
 
   @media (max-width: $l) {
     display: block;

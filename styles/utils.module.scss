@@ -7,7 +7,9 @@
   font-size: 0.75em;
   font-weight: bold;
   height: 2.5rem;
+  justify-content: center;
   line-height: 1;
+  margin: 0.1rem;
   padding: 0 2rem;
   text-transform: uppercase;
 
@@ -24,7 +26,29 @@
   font-size: 0.75em;
   font-weight: bold;
   height: 2.5rem;
+  justify-content: center;
   line-height: 1;
+  margin: 0.1rem;
+  padding: 0 2rem;
+  text-transform: uppercase;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.solidButton {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  color: var(--green);
+  display: inline-flex;
+  font-size: 0.75em;
+  font-weight: bold;
+  height: 2.5rem;
+  justify-content: center;
+  line-height: 1;
+  margin: 0.1rem;
   padding: 0 2rem;
   text-transform: uppercase;
 

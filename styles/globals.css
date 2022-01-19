@@ -32,6 +32,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
   margin: 1rem 0;
 }
 
@@ -47,6 +48,7 @@ ul {
 
 :root {
   --green: #0d3436;
+  --green: #0D3036;
   --white: #fff;
   --black: #000;
   --maxWidth: 1440px;

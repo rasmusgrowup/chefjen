@@ -11,9 +11,9 @@ export default function Hero() {
       <section className={css.wrapper}>
         <div className={css.landscapeHero}>
           <div className={css.content}>
-            <h1>Catering og Private Dining til jeres festlige begivenheder</h1>
+            <h1>Autentisk mad til jeres festlige begivenheder</h1>
             <Link href='/catering'><a className={css.button} data='first-button'>Se mere & bestil</a></Link>
-            <Link href='/privat-dining'><a className={css.button} data='second-button'>Læs mere om Private Dining</a></Link>
+            <Link href='/private-dining'><a className={css.button} data='second-button'>Læs mere om Private Dining</a></Link>
           </div>
         </div>
       </section>
