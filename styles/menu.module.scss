@@ -19,3 +19,9 @@
     text-decoration: underline;
   }
 }
+
+@media (min-width: $l) {
+  .index {
+    display: none;
+  }
+}

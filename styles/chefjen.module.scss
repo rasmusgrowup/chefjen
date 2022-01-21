@@ -112,6 +112,18 @@
       }
     }
   }
+
+  @media (max-width: $l) {
+    p:last-of-type {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.storyBottom {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0 1rem;
 }
 
 .quoteSection {
@@ -119,7 +131,7 @@
   color: var(--green);
   margin: 0 auto;
   max-width: var(--maxWidth);
-  padding: 6rem;
+  padding: 3rem 6rem 6rem;
 
   @media (max-width: $l) {
     padding: 4rem 2rem;

@@ -61,6 +61,15 @@ export default function PrivateDining() {
               <p>Vi har også taget højde for en væsentlig bekymring ved sammenkomster - er der nu nok mad? Når alle onklerne er inviteret, så kan man jo komme i tvivl, men vi ved godt hvordan portionsstørrelserne skal være, så du kan læne dig tilbage og nyde en velkendt vits fra onkel Lars, med vished om, at han ikke går sulten hjem.</p>
               </div>
           </div>
+          <div className={css.storyBottom}>
+            <p>
+            Sådan kan vi beskrive vores køkken hos Chef Jen. Velsmag, råvarer af god kvalitet, nyfortolkede klassikere og rigelige mængder. Vi har bygget vores forretning på to primære koncepter, catering til alverdens arrangementer og private dining til de særligt eksklusive aftener.</p>
+            <p>I 2022 åbner vi for vores nye køkken i Aalborg midtby, med tilhørende restaurant og moderne selskabslokaler. Fra dette køkken, tilbereder vi vores kunders bestillinger, leverer frokoster til erhvervslivet og udleverer dagens ret.</p>
+            <p>Nyt for os, er både frokostordning og dagens ret. Vi kan se, at der er efterspørgsel på mad som ikke er tabt i frituren, og som erstatter fast food med simreretter med god dybde, som har stået i timevis og trukket smag. Vi ønsker at tilbyde god hverdagsmad til dem som gerne vil have et let alternativ, og til dem som ikke selv kan stå i køkkenet grundet alderdom eller sygdom.</p>
+            <p>Vores familie på fem er bosat Nørhalne, nord for Aalborg. Vi forstår godt at familielivet kalder på et ubesværet aftensmåltid en gang i mellem, og hvad det vil sige at bestille catering til en fest hvor der også er børn inviteret.</p>
+            <p>Vi har begge rødder i Thailand og elsker mad med smæk på smagen. Vi holder særligt af Nordjylland, her er både plads til det uformelle og det ambitiøse.</p>
+            <p><strong>Suwanna & Jensak</strong></p>
+          </div>
         </section>
         <section className={css.quoteSection}>
           <h3 className={css.quote}>Som vært er man altid lidt spændt når der skal holdes fest for så mange gæster, men med Chef Jen som leverandør, kan du godt læne dig tilbage, og tage imod gæsternes ros for dejlig mad.</h3>

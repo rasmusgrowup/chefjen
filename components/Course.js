@@ -18,7 +18,7 @@ export default function Course() {
     <>
       <div className={css.wrapper}>
         <h2 className={css.courseTitle}>Menuforslag & retter</h2>
-        <p className={css.courseText}>Vores catering serveres som buffet, på nær forreten, der bliver anrettet og serveret på en tallerken. Vælg selv jeres menu ud fra listen af retter ved at trykke på knappen, eller lad jer inspirere af nedenstående menuforslag.</p>
+        <p className={css.courseText}>Vores catering serveres som buffet, på nær forreten, der bliver anrettet og serveret på en tallerken. Vælg selv jeres menu ud fra listen af retter ved at trykke på knappen, eller bestil vores populære menuforslag.</p>
         <Button href='/' text='se alle vores retter'/>
         <div className={css.inner}>
           <div className={css.dish}>
