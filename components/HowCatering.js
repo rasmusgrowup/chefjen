@@ -7,7 +7,7 @@ import Pan from '../public/pan_icon.png'
 import Hand from '../public/hand_icon.png'
 import Hat from '../public/hat_icon.png'
 
-export default function How({ title }) {
+export default function HowCatering({ title }) {
   return (
     <>
       <section className={css.howWrapper}>

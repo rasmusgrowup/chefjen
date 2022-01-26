@@ -15,7 +15,7 @@ export default function Footer() {
         <div className={css.footerInner}>
           <div className={css.contactWrapper}>
             <h3>Kontakt os</h3>
-            <p>Hos Chef Jen går vi op i at maden skal mætte, smage godt, og at der skal være rigeligt af det. Vores retter består af traditionelt dansk mad - typisk baseret på en god blanding af kød, fisk, lækre salater og hjemmebagt brød - tilsat et strejf af Thailand. Velbekomme!</p>
+            <p>Hos Chef Jen går vi op i at maden skal mætte, smage godt, og at der skal være rigeligt af det. Vores retter består af traditionel dansk mad - typisk baseret på en god blanding af kød, fisk, lækre salater og hjemmebagt brød - tilsat et strejf af Thailand. Velbekomme!</p>
             <WhiteButton href='mailto:kontakt@chefjen.dk' text='kontakt@chefjen.dk' />
             <SolidButton href='tel:22929499' text='Ring på +45 22 92 94 99' />
           </div>

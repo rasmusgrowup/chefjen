@@ -4,12 +4,13 @@
   color: var(--white);
   left: 0;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 1rem 1.5rem;
   position: fixed;
   right: 0;
   top: 0;
-  transition: 0.2s;
-  transition-property: background-color;
+  transition: all 0.2s var(--ease);
+  transition-property: background-color, transform;
+  transform: translateY(0%);
   width: 100%;
   z-index: 99;
 
@@ -45,7 +46,7 @@
 }
 
 .logoWrapper {
-  width: 8rem;
+  width: 7.5rem;
 
   @media (max-width: $l) {
     width: 6rem;
@@ -63,6 +64,7 @@
   font-size: 0.75em;
   font-weight: bold;
   height: 2rem;
+  letter-spacing: 0.1em;
   line-height: 1;
   margin-right: 0.25rem;
   padding: 0 1rem;
@@ -90,4 +92,10 @@
   .contactBtn {
     border-color: var(--green);
   }
+}
+
+.pushHeader {
+  transform: translateY(-100%);
+  transition: all 0.6s var(--ease);
+  transition-property: transform;
 }

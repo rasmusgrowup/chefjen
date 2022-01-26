@@ -28,8 +28,11 @@ export default function Header() {
     if (router.pathname != '/')
       _classList.push(`${css.greenHeader}`)
 
+    if (scroll.y > 150 && scroll.y - scroll.lastY > 0)
+    _classList.push(`${css.pushHeader}`);
+
     setNavClassList(_classList);
-  }, [scroll.y, router]);
+  }, [scroll.y, scroll.lastY, router]);
 
   return (
     <>

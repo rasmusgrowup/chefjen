@@ -140,6 +140,7 @@
   .quote {
     font-size: 1.5em;
     font-weight: 300;
+    line-height: 1.25;
     margin: 0 auto 1rem;
     max-width: 680px;
 
@@ -167,8 +168,12 @@
       content: '';
       display: block;
       height: 1rem;
-      margin: -0.5rem 0 0 auto;
+      margin: 0 0.5rem 0 auto;
       width: 1rem;
+
+      @media (max-width: $l) {
+        margin: 0 0 0 auto;
+      }
     }
   }
 

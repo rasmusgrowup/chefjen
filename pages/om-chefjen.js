@@ -5,7 +5,7 @@ import { gsap } from 'gsap'
 
 import Button from '../components/Button'
 import WhiteButton from '../components/WhiteButton'
-import How from '../components/How'
+import How from '../components/HowCatering'
 import css from '../styles/chefjen.module.scss'
 
 import PimJen from '../public/Pim_Jen.jpg'
@@ -72,8 +72,8 @@ export default function PrivateDining() {
           </div>
         </section>
         <section className={css.quoteSection}>
-          <h3 className={css.quote}>Som vært er man altid lidt spændt når der skal holdes fest for så mange gæster, men med Chef Jen som leverandør, kan du godt læne dig tilbage, og tage imod gæsternes ros for dejlig mad.</h3>
-          <span className={css.quoteName}>Mette Bruun Svendsen</span>
+          <h3 className={css.quote}>Vi fik lækker thailandsk mad til vores julefrokost i går. 🎄🎅🏼 FANTASTISK lækkert, veltilberedt mad. Kan kun anbefale Chef Jen hvis man skal holde større eller mindre selskaber. 😋🤩👏🏼</h3>
+          <span className={css.quoteName}>Tina Eriksen</span>
           <Link href='https://www.facebook.com/Chefjendk/reviews/?ref=page_internal'><a  target='_blank' className={css.quoteLink}>Se flere facebook anmeldelser</a></Link>
         </section>
       </section>

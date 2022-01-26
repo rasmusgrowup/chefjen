@@ -51,7 +51,7 @@ export default function Menuer({ menus }) {
               <Link href={`/menuer/${slug}`}><a>
                 <Image src={billede.url} width='370' height='300' objectFit='cover' objectPosition='center' quality='80'/>
                 <h3>{titel}</h3>
-                <p>{beskrivelse.text.slice(0, 75)}...</p>
+                <p>{beskrivelse.text}</p>
                 <span className={css.price}>{pris},- kr./kuvert</span>
               </a></Link>
             </div>

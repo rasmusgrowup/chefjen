@@ -5,9 +5,14 @@
   color: var(--white);
   padding: 2rem;
 
+  @media (max-width: $l) {
+    padding: 2rem 2rem 3rem;
+  }
+
   @media (min-width: $xxl) {
-    margin: 4rem auto;
+    margin: 4rem auto 1.5rem;
     max-width: var(--maxWidth);
+    padding: 2rem;
   }
 }
 
@@ -17,11 +22,15 @@
 
 .contactWrapper {
   margin: 0 auto;
-  max-width: 440px;
+  max-width: 480px;
   text-align: center;
 
   h3 {
     font-size: 1.75em;
+  }
+
+  p {
+    margin-bottom: 2rem;
   }
 }
 
@@ -47,7 +56,7 @@
   .terms {
     @media (max-width: $l) {
       justify-content: center;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
       width: 100%;
     }
 

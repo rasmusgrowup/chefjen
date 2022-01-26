@@ -36,7 +36,7 @@
     display: flex;
     height: 100%;
     left: 0;
-    opacity: 0.5;
+    opacity: 0.35;
     position: absolute;
     top: 0;
     right: 0;
@@ -54,7 +54,7 @@
   width: 90%;
 
   h1 {
-    font-size: 2.75rem;
+    font-size: 3rem;
     line-height: 1.1;
     margin-bottom: 2rem;
 
@@ -72,6 +72,7 @@
   font-weight: bold;
   height: 2.5rem;
   justify-content: center;
+  letter-spacing: 0.1em;
   line-height: 1;
   margin-bottom: 0.5rem;
   margin-right: 0.25rem;
@@ -79,11 +80,11 @@
   text-transform: uppercase;
 
   @media (max-width: $l) {
-    display: flex;
+    min-width: 250px;
   }
 }
 
-.button[data='second-button'] {
+.button[data='first-button'] {
   background-color: var(--white);
   color: var(--green);
 }

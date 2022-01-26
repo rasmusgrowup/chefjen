@@ -5,7 +5,6 @@ import { gsap } from 'gsap'
 
 import Button from '../components/Button'
 import WhiteButton from '../components/WhiteButton'
-import How from '../components/How'
 import css from '../styles/selskabslokaler.module.scss'
 
 import Lokale1 from '../public/lokale_1.jpg'
@@ -42,7 +41,7 @@ export default function PrivateDining() {
               </p>
               <p style={{ display: 'none' }}>Følg med i vores hverdag på vores <Link href='/'><a style={{ color: 'blue' }}>Instagram-profil</a></Link> eller se vores kunders anmeldelser på <Link href='/'><a style={{ color: 'blue' }}>Facebook</a></Link></p>
               <p style={{ display: 'none' }}>Der er plads til dine ønsker til menuen, så lad os høre hvad du drømmer om.</p>
-              <Button href='mailto:kontakt@chefjen.dk' text='Lej vores lokaler' />
+              <Button href='mailto:kontakt@chefjen.dk' text='Lej lokaler' />
             </div>
             <div className={css.image}>
               <div className={css.portrait}><Image src={Lokale1} layout='responsive' sizes='50vw' quality='100' priority='true' placeholder='blur' /></div>
