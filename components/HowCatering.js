@@ -32,11 +32,11 @@ export default function HowCatering({ title }) {
         <div className={css.faq}>
           <h2 className={css.faqTitle}>Ofte stillede spørgsmål</h2>
           <div className={css.questions}>
-            <Faq title='Levering' text='Vi har fokus på ingredienser af høj kvalitet og sørger for at maden smager lige som den skal. Vi bager endda vores eget brød, fordi det bare smager bedre.' />
-            <Faq title='Betalingsfrist' text='Jensak er uddannet kok og med mange års erfaring sammensætter og tilbereder han retter som passer til netop dine ønsker og dit arrangement.' />
-            <Faq title='Afhentning af fade og skåle' text='Jensak er uddannet kok og med mange års erfaring sammensætter og tilbereder han retter som passer til netop dine ønsker og dit arrangement.' />
-            <Faq title='Afbestillingsbetingelser' text='Jensak er uddannet kok og med mange års erfaring sammensætter og tilbereder han retter som passer til netop dine ønsker og dit arrangement.' />
-            <Faq title='Modtagelse af maden' text='Jensak er uddannet kok og med mange års erfaring sammensætter og tilbereder han retter som passer til netop dine ønsker og dit arrangement.' />
+            <Faq title='Levering' text='Vi leverer catering til hele Danmark, primært til Nordjylland, da vi til dagligt er placeret i Aalborg og omegn. Der tillægges et kørselsgebyr som afhænger af distancen. Tøv ikke med at kontakte os for at få mere information om priser på kørsel og levering til din fest. Når vi sammen planlægger catering til din fest, aftaler vi også hvornår vi ankommer til adressen og hvornår vi kører derfra igen.' />
+            <Faq title='Bestillings- og betalingsfrist' text='Catering kan senest bestilles 7 dage inden leveringsdagen. Betalingen afregnes via en tilsendt faktura som har 7 dages betalingsfrist, når vi har afsluttet vores service hos dig.' />
+            <Faq title='Leje af tjenere' text='Har du brug for hjælp i køkkenet og omkring bordet under arrangementet, kan du booke tjenere hos os. Du skal venligst booke personale minimum tre uger før dit arrangement. Vores tjenere kan bookes til at hjælpe med opdækning, servering, afrydning, opvask m.m. Pris DKK 395 pr. time (minimum 5 timer). Bemærk, at der beregnes transporttid for både kok og personale.' />
+            <Faq title='Fødevareallergi' text='Vi har desværre ikke mulighed for at lave særlige menuer tilpasset fødevareallergier.' />
+            <Faq title='Afbestilling' text='Afbestilling skal ske skriftligt på kontakt@chefjen.dk, og skal være givet minimum 5 hverdage før det aftalte leveringstidspunkt. Ved afbestilling modtager du en bekræftelse på, at afbestillingen er modtaget. Læs vores handelsbetingelser for at se vores fulde afbestillingsbetingelser. Find vores handelsbetingelser i bunden af siden.' />
           </div>
         </div>
       </section>

@@ -54,7 +54,7 @@ export default function PrivateDining() {
         <div className={css.menu}>
           <div className={css.menuInner}>
             <div className={css.menuImage}>
-              <Image src={Mellemret} layout='responsive' objectPosition='center' objectFit='cover' sizes='50vw' quality='100'/>
+              <Image src={Mellemret} layout='fill' objectPosition='bottom' objectFit='cover' sizes='50vw' quality='100'/>
             </div>
             <div className={css.menuContent}>
               <div className={css.menuContentInner}>

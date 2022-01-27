@@ -77,6 +77,7 @@
 .menu {
   margin: 0 auto;
   max-width: var(--maxWidth);
+  position: relative;
 }
 
 .menuInner {
@@ -89,7 +90,9 @@
 
   .menuImage,
   .menuContent {
+    min-height: 720px;
     width: 50%;
+    position: relative;
 
     @media (max-width: $l) {
       width: 100%;
@@ -231,6 +234,7 @@
   background-color: var(--green);
   color: white;
   margin: 0 auto 3rem;
+  max-width: var(--maxWidth);
   text-align: center;
   padding-bottom: 6rem;
   padding-top: 6rem;
