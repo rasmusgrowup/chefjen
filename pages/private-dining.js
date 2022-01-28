@@ -64,7 +64,7 @@ export default function PrivateDining() {
                   <ul>
                     <li>
                       <h3>Snacks</h3>
-                      <p>'Curry puff' med to slags fyld · blæksprutte · soyabønner · chili dip · tzatziki</p>
+                      <p>Curry puff med to slags fyld · blæksprutte · soyabønner · chili dip · tzatziki</p>
                       <p>Dampede bao · grillet krogmodnet skaftkotelet · soyamarineret · syltede rødløg · agurk · koriander · chili/hvidløgscreme · sesam/soyavinaigrette</p>
                       <p>Grønne bønner · mornay sauce · gratineret · serveret m. brødknas</p>
                     </li>
