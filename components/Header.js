@@ -46,7 +46,7 @@ export default function Header() {
           </div>
           <Menu />
           <div className={css.buttonsWrapper}>
-            <Link href='mailto:chefjendenmark@gmail.com'>
+            <Link href='/kontakt'>
               <a><div className={css.contactBtn} data='contact' >kontakt os</div></a>
             </Link>
             <MobileMenu />

@@ -139,7 +139,7 @@ export default function Menu({ menu }) {
                 </div>
             }
             <span className={css.price}>{menu.pris},- kr./kuvert</span>
-            <Button href='mailto:kontakt@chefjen.dk' text='Bestil menuen' />
+            <Button href='/kontakt' text='Bestil menuen' />
           </div>
           <div className={css.menuImage}>
             <Image src={menu.billede.url} width='500' height='625' objectFit='cover' objectPosition='center' quality='80'/>
