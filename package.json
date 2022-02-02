@@ -8,6 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sendgrid/mail": "^7.6.0",
     "graphql": "^16.2.0",
     "graphql-request": "^3.7.0",
     "gsap": "^3.9.1",

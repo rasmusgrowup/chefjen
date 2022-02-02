@@ -1,0 +1,77 @@
+@import 'sizes.scss';
+
+.section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 6rem auto 3rem;
+  min-height: 60vh;
+  padding: 0 1rem;
+}
+
+.wrapper {
+  max-width: 580px;
+  width: 100%;
+}
+
+.title {
+  max-width: 580px;
+  text-align: center;
+}
+
+.form {
+  max-width: 580px;
+
+  label {
+    display: block;
+    margin-top: 1rem;
+  }
+
+  select {
+    background-color: var(--white);
+    background-image: url('/chevron-down.png');
+    background-position: 98% 50%;
+    background-repeat: no-repeat;
+    border: 1px solid var(--green);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0.5rem 1rem;
+  }
+
+  input,
+  textarea,
+  select {
+    display: block;
+    font-size: 16px;
+    padding: 0.5rem 1rem;
+    width: 100%;
+  }
+}
+
+.send {
+  background-color: var(--white);
+  border: 1px solid var(--green);
+  color: var(--green);
+  cursor: pointer;
+  display: block;
+  font-size: 1em;
+  margin: 0.5rem 0 0 auto;
+  padding: 0.5rem 1rem;
+}
+
+.unsendable {
+  opacity: 0.25;
+  cursor: default;
+}
+
+.sendable {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.disclaimer {
+  opacity: 0.4;
+  font-size: 0.8em;
+}
