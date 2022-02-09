@@ -30,6 +30,7 @@ export async function getStaticProps({ params }) {
         beskrivelse {
           text
         }
+        type
         buffet
         forret {
           ... on Forret {
@@ -130,7 +131,7 @@ export default function Menu({ menu }) {
               <Image src={Chevron} width='9' height='9'/>Gå tilbage
             </span>
             <h1>{menu.titel}</h1>
-            <span className={css.typeOfMenu}>Type: { menu.buffet == false ? 'Middag' : 'Buffet'}</span>
+            <span className={css.typeOfMenu}>Type: { menu.type }</span>
             <p>{menu.beskrivelse.text}</p>
             { menu.tilkoeb != null &&
                 <div className={css.addonsWrapper}>
@@ -148,7 +149,7 @@ export default function Menu({ menu }) {
         <div className={css.menuCourses}>
           <h2 className={css.menuCourseTitle}>Menuen består af:</h2>
           <div className={css.starters}>
-            <h3>Forret</h3>
+            { menu.type != 'tapas' ? <h3>Forret</h3>: '' }
             {menu.forret.map(({ id, titel, beskrivelse }) => (
               <div key={id} className={css.starter}>
                 <h4>{titel}</h4>
@@ -157,7 +158,7 @@ export default function Menu({ menu }) {
             ))}
           </div>
           <div className={css.mainCourses}>
-            <h3>Hovedretter</h3>
+            { menu.type != 'tapas' ? <h3>Hovedretter</h3>: '' }
             <span className={css.buffetBoolean}>{ menu.buffet == false ? '' : '(Serveres som buffet)'}</span>
             {menu.ret.map(({ id, titel, beskrivelse }) => (
               <div key={id} className={css.mainCourse}>
@@ -167,7 +168,7 @@ export default function Menu({ menu }) {
             ))}
           </div>
           <div className={css.desserts}>
-            <h3>Dessert</h3>
+            { menu.type != 'tapas' ? <h3>Dessert</h3>: '' }
             {menu.dessert.map(({ id, titel, beskrivelse }) => (
               <div key={id} className={css.dessert}>
                 <h4>{titel}</h4>

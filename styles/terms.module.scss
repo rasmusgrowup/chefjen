@@ -1,0 +1,28 @@
+@import 'sizes.scss';
+
+.terms {
+  max-width: 600px;
+  margin: 9rem auto;
+  padding: 0 2rem;
+
+  .inner {
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  ul {
+    list-style-type: circle;
+    padding-left: 2rem;
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  a {
+    color: blue;
+  }
+}

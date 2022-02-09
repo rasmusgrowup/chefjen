@@ -66,7 +66,7 @@ export default function Catering() {
           <h2>Klar til at bestille?</h2>
           <p>Få et uforpligtende tilbud på mad til jeres næste arrangement ved at sende os en mail vha. knappen nedenunder. Som udgangspunkt skal du vælge fra vores faste menuer, men du er altid velkommen til at forespørge ændringer i retterne. Vi kontakter jer efterfølgende indenfor 24 timer.</p>
           <WhiteButton href='/kontakt' text='Bestil din mad' />
-          <span>Eller ring til os på <Link href='tel:+4522929499'><a>+45 22 92 94 99</a></Link></span>
+          <span>Eller ring til os på <Link href='tel:+4561766988'><a>+45 61 76 69 88</a></Link></span>
         </div>
         <How title='Sådan foregår vores catering'/>
       </section>
