@@ -61,7 +61,7 @@ export default function PrivateDining() {
               <p>Vi har også taget højde for en væsentlig bekymring ved sammenkomster - er der nu nok mad? Når alle onklerne er inviteret, så kan man jo komme i tvivl, men vi ved godt hvordan portionsstørrelserne skal være, så du kan læne dig tilbage og nyde en velkendt vits fra onkel Lars, med vished om, at han ikke går sulten hjem.</p>
               </div>
           </div>
-          <div className={css.storyBottom}>
+          <div className={css.storyBottom} style={{ display: 'none' }}>
             <p>
             Sådan kan vi beskrive vores køkken hos Chef Jen. Velsmag, råvarer af god kvalitet, nyfortolkede klassikere og rigelige mængder. Vi har bygget vores forretning på to primære koncepter, catering til alverdens arrangementer og private dining til de særligt eksklusive aftener.</p>
             <p>I 2022 åbner vi for vores nye køkken i Aalborg midtby, med tilhørende restaurant og moderne selskabslokaler. Fra dette køkken, tilbereder vi vores kunders bestillinger, leverer frokoster til erhvervslivet og udleverer dagens ret.</p>
@@ -71,7 +71,7 @@ export default function PrivateDining() {
             <p><strong>Suwanna & Jensak</strong></p>
           </div>
         </section>
-        <section className={css.quoteSection}>
+        <section className={css.quoteSection} style={{ display: 'none' }}>
           <h3 className={css.quote}>Vi fik lækker thailandsk mad til vores julefrokost i går. 🎄🎅🏼 FANTASTISK lækkert, veltilberedt mad. Kan kun anbefale Chef Jen hvis man skal holde større eller mindre selskaber. 😋🤩👏🏼</h3>
           <span className={css.quoteName}>Tina Eriksen</span>
           <Link href='https://www.facebook.com/Chefjendk/reviews/?ref=page_internal'><a  target='_blank' className={css.quoteLink}>Se flere facebook anmeldelser</a></Link>

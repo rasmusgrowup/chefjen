@@ -7,8 +7,8 @@ import Button from '../components/Button'
 import WhiteButton from '../components/WhiteButton'
 import css from '../styles/selskabslokaler.module.scss'
 
-import Lokale1 from '../public/lokale_1.jpg'
-import Lokale2 from '../public/lokale_2.jpg'
+import Lokale1 from '../public/ButikMockup.jpg'
+import Lokale2 from '../public/ButikMockup_2.jpg'
 
 export default function PrivateDining() {
   const hero = useRef(null);
@@ -33,7 +33,7 @@ export default function PrivateDining() {
             <div className={css.container}>
               <span>Selskabslokaler</span>
               <h1 className={css.heroTitle}>
-                Smukke og hyggelige selskabslokaler i hjertet af Aalborg
+                Smukke og hyggelige selskabslokaler i hjertet af Aabybro
               </h1>
               <span className={css.titleTerms} style={{ display: 'none' }}>*pr. kuvert ved min. 10 kuverter</span>
               <p>Vi har længe drømt om, at tilbyde vores kunder et sted hvor de kan afholde deres begivenhed, og hvor vi kan facilitere maden. Derfor åbner vi i 2022 for nye lokaler, som samlet kan huse op til 150 personer, eller opdelt kan huse to selskaber af 50 og 100 personer.</p>

@@ -37,9 +37,9 @@ export default function Catering() {
             <div className={css.container}>
               <span>Catering</span>
               <h1 className={css.heroTitle}>
-                Mad ud af huset til store og små selskaber fra 199,-
+                Mad ud af huset til store og små selskaber fra  199kr.*
               </h1>
-              <span className={css.titleTerms} style={{ display: 'none' }}>*pr. kuvert ved min. 10 kuverter</span>
+              <span className={css.titleTerms}>*prisen på vores menuer kan variere</span>
               <p>Lad os stå for maden til dit arrangement, så sørger vi for at dine gæster får en dejlig smagsoplevelse og går mætte hjem.<br /><br/>Vi har løbende aktuelle menuer som passer godt til konfirmationer, højtider og andre store begivenheder, såsom bryllupper, jubilæer, runde fødselsdage, firmaarrangementer m.m. Kontakt os for et uforpligtende tilbud.
               </p>
               <p style={{ display: 'none' }}>Der er plads til dine ønsker til menuen, så lad os høre hvad du drømmer om.</p>

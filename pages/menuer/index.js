@@ -52,7 +52,8 @@ export default function Menuer({ menus }) {
                 <Image src={billede.url} width='370' height='300' objectFit='cover' objectPosition='center' quality='80'/>
                 <h3>{titel}</h3>
                 <p>{beskrivelse.text}</p>
-                <span className={css.price}>{pris},- kr./kuvert</span>
+                <span className={css.price}>{pris},- kr./kuvert*</span>
+                <span className={css.titleTerms} style={{opacity: '0.25'}}>*prisen på vores menuer kan variere</span>
               </a></Link>
             </div>
           ))}

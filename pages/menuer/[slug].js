@@ -139,7 +139,8 @@ export default function Menu({ menu }) {
                   <div className={css.addons} dangerouslySetInnerHTML={{ __html: menu.tilkoeb.html }}></div>
                 </div>
             }
-            <span className={css.price}>{menu.pris},- kr./kuvert</span>
+            <span className={css.price}>{menu.pris},- kr./kuvert*</span>
+            <span className={css.titleTerms} style={{opacity: '0.25', display: 'block', marginBottom: '1rem'}}>*prisen på vores menuer kan variere</span>
             <Button href='/kontakt' text='Bestil menuen' />
           </div>
           <div className={css.menuImage}>
