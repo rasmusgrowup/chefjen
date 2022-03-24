@@ -14,13 +14,13 @@ export default async (req, res) => {
   `;
 
   const data = {
-    to: 'hello@growupstudio.dk',
-    from: 'rasmus@growupstudio.dk',
+    to: 'chefjendk@gmail.com',
+    from: 'kontakformchefjen@gmail.com',
     subject: `${body.name} ønsker et tilbud på ${body.value}`,
     text: message,
     html: message.replace(/\r\n/g, '<br />'),
   };
-  
+
   await mail.send(data);
 
   res.status(200).json({ status: 'OK' });
