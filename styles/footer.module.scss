@@ -40,7 +40,7 @@
   justify-content: space-between;
 
   @media (max-width: $l) {
-    flex-wrap: wrap;
+    display: block;
   }
 
   .cvr,
@@ -56,7 +56,7 @@
   .terms {
     @media (max-width: $l) {
       justify-content: center;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
       width: 100%;
     }
 
@@ -73,15 +73,20 @@
     justify-content: center;
 
     @media (max-width: $l) {
-      font-size: 0.8em;
-      justify-content: flex-start;
-      flex: 2;
-      width: 66%;
+      margin-bottom: 1rem;
+      text-align: center;
+      width: 100%;
     }
   }
 
   .socials {
     justify-content: flex-end;
+
+    @media (max-width: $l) {
+      justify-content: center;
+      margin-bottom: 1rem;
+      width: 100%;
+    }
 
     li:first-of-type {
       margin-right: 1rem;

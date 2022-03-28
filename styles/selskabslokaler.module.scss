@@ -99,6 +99,11 @@
       margin-bottom: 1em;
     }
 
+    ul {
+      line-height: 1.5;
+      margin-bottom: 1rem;
+    }
+
     p strong {
       font-size: 1.15em;
       line-height: 1;
@@ -108,6 +113,20 @@
       }
     }
   }
+}
+
+.invertedStory .storyInner {
+  flex-direction: row-reverse;
+
+  @media (max-width: $l) {
+    flex-direction: column-reverse;
+    padding: 1rem;
+  }
+}
+
+.storyList {
+  list-style: circle;
+  padding-inline-start: 28px;
 }
 
 .quoteSection {

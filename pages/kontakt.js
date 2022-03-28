@@ -101,7 +101,7 @@ export default function Kontakt({ menus }) {
             {menus.map(({ titel, id }) => (
               <option value={titel} key={id}>{titel}</option>
             ))}
-            <option value='Leje af lokaler'>Leje af selskabslokaler</option>
+            <option value='Selskabslokaler'>Selskabslokaler</option>
           </select>
           <label htmlFor="message">Besked:</label>
           <textarea
