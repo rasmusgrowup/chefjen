@@ -39,8 +39,8 @@ export default function PrivateDining() {
               <h1 className={css.heroTitle}>
                 Smukke og hyggelige selskabslokaler i hjertet af Aabybro
               </h1>
-              <p>Vi har længe drømt om, at tilbyde vores kunder et sted, hvor de kan afholde deres begivenheder, og hvor vi kan facilitere maden. Derfor åbner vi i 2022 for nye lokaler, som samlet kan huse op til 150 personer.</p>
-              <p>Skal I fejre konfirmation, bryllup, runde fødselsdage, firmaarrangementer, generalforsamlinger, jubilæum eller lignende, så passer vores lokaler perfekt hertil.
+              <p>Vi har længe drømt om, at tilbyde vores kunder et sted, hvor de kan afholde deres begivenheder, og hvor vi kan facilitere maden. Derfor åbner vi i 2022 for nye lokaler, som kan huse selskaber på op til 80 mennesker, eller to selskaber af 40 i hvert lokale.</p>
+              <p>Skal I fejre konfirmation, bryllup, runde fødselsdage, firmaarrangementer, generalforsamlinger, jubilæum eller lignende, så passer vores komplette løsninger med mad og lokaler perfekt til disse begivenheder.
               </p>
               <p style={{ display: 'none' }}>Følg med i vores hverdag på vores <Link href='/'><a style={{ color: 'blue' }}>Instagram-profil</a></Link> eller se vores kunders anmeldelser på <Link href='/'><a style={{ color: 'blue' }}>Facebook</a></Link></p>
               <p style={{ display: 'none' }}>Der er plads til dine ønsker til menuen, så lad os høre hvad du drømmer om.</p>
