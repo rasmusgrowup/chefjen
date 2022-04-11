@@ -59,10 +59,10 @@ export default function PrivateDining() {
             <div className={css.storyInnerContent}>
               <h2>Posttorvet - by Chef Jen</h2>
               <p><strong>Selskabslokaler i hjertet af Aabybro</strong></p>
-              <p>Hos Chef Jen tilbyder vi mad til alle dine arrangementer, både i vores egne lokaler og 'ud af huset’.</p>
+              <p>Hos Chef Jen tilbyder vi mad til alle dine arrangementer, både i vores egne lokaler og ud af huset.</p>
               <p><b>Step 1</b><br/>Før du går i gang med at bestille ChefJen til din begivenhed, er det vigtigt at få have nogenlunde styr på hvor mange gæster der kommer til spisning, hvornår maden skal leveres, og om der er nogle specielle ting i forhold til maden, som vi skal tage hensyn til.</p>
               <p><b>Step 2</b><br/>Lad os mødes! Så vi sammen kan gennemgå vores menuforslag til jer og det praktiske detaljer til jeres specielle dag.</p>
-              <p>“Vi tilpasser og skræddersyer menuen, så det passer til det i ønsker”.</p>
+              <p>&quot;Vi tilpasser og skræddersyer menuen, så det passer til det i ønsker&quot;</p>
               </div>
           </div>
         </section>
@@ -72,7 +72,7 @@ export default function PrivateDining() {
               <Image src={Jen} />
             </div>
             <div className={css.storyInnerContent}>
-              <h2>Eksempel 1 "Tallerkenanret" på posttorvet - by Chef Jen</h2>
+              <h2>Eksempel 1 &quot;Tallerkenanret&quot; på posttorvet - by Chef Jen</h2>
                 <p>En komplet løsning:</p>
                 <ul className={css.storyList}>
                   <li>Vores lokale - posttorvet i Aabybro</li>
@@ -121,7 +121,7 @@ export default function PrivateDining() {
               <Image src={Jen2} />
             </div>
             <div className={css.storyInnerContent}>
-              <h2>Eksempel 2 "Buffet" på posttorvet - by Chef Jen</h2>
+              <h2>Eksempel 2 &quot;Buffet&quot; på posttorvet - by Chef Jen</h2>
                 <p>Det i får:</p>
                 <ul className={css.storyList}>
                   <li>Vores lokale - posttorvet i Aabybro</li>
