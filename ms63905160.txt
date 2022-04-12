@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domæneejerskabsbekræftelsesfil for Microsoft 365 – placér i webstedets rod",
+  "Domain": "chefjen.dk",
+  "Id": "7e606717-1e65-489e-860c-499eb94a07c6"
+}
