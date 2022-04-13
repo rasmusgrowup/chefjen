@@ -43,7 +43,7 @@ export default function Catering() {
               <p>Lad os stå for maden til dit arrangement, så sørger vi for at dine gæster får en dejlig smagsoplevelse og går mætte hjem.<br /><br/>Vi har løbende aktuelle menuer som passer godt til konfirmationer, højtider og andre store begivenheder, såsom bryllupper, jubilæer, runde fødselsdage, firmaarrangementer m.m. Kontakt os for et uforpligtende tilbud.
               </p>
               <p style={{ display: 'none' }}>Der er plads til dine ønsker til menuen, så lad os høre hvad du drømmer om.</p>
-              <Button href='/kontakt' text='Bestil catering' />
+              <Button href='mailto:chefjendk@gmail.com' text='Bestil catering' />
             </div>
             <div className={css.image}>
               <div className={css.landscape}><Image src={Buffet} layout='responsive' sizes='66vw' quality='100' priority='true' placeholder='blur' /></div>

@@ -92,7 +92,7 @@ export default function Home({ menus }) {
             <h3>Prøv en eksklusiv madoplevelse med vores Private Dining koncept</h3>
             <p>Vores koncept til dig der ønsker at give dine gæster en helt unik og eksklusiv madoplevelse hjemme hos dig selv. Læn jer tilbage i private rammer mens Chef Jen serverer en række ophøjede smagsoplevelser som I sent vil glemme.</p>
             <p style={{ marginBottom: '2rem' }}>Private dining passer specielt godt til mindre selskaber hvor helt særlige anledninger skal fejres. Her bliver I præsenteret for flere små anretninger med intense smage, som parres med udsøgte vine.</p>
-            <WhiteButton href='/' text='Læs mere om Private Dining' />
+            <WhiteButton href='/private-dining' text='Læs mere om Private Dining' />
           </div>
         </div>
         <div className={css.privateDiningRight}>
