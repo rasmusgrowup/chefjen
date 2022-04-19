@@ -24,7 +24,7 @@ export default function Footer() {
           <ul className={css.terms}>
             <li><Link href='/handelsbetingelser'><a>Handelsbetingelser</a></Link></li>
           </ul>
-          <span className={css.cvr}>©{new Date().getFullYear()} ChefJen — CVR 4285860</span>
+          <span className={css.cvr}>©{new Date().getFullYear()} ChefJen — CVR 42858609</span>
           <ul className={css.socials}>
             <li><Link href='/'><a><Image src={Facebook} width='18' height='18'/></a></Link></li>
             <li><Link href='/'><a><Image src={Instagram} width='18' height='18' /></a></Link></li>
