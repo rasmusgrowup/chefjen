@@ -43,7 +43,7 @@ export default function Catering() {
               <p>Lad os stå for maden til dit arrangement, så sørger vi for at dine gæster får en dejlig smagsoplevelse og går mætte hjem.<br /><br/>Vi har løbende aktuelle menuer som passer godt til konfirmationer, højtider og andre store begivenheder, såsom bryllupper, jubilæer, runde fødselsdage, firmaarrangementer m.m. Kontakt os for et uforpligtende tilbud.
               </p>
               <p style={{ display: 'none' }}>Der er plads til dine ønsker til menuen, så lad os høre hvad du drømmer om.</p>
-              <Button href='mailto:chefjendk@gmail.com' text='Bestil catering' />
+              <Button href='mailto:chefjendk@gmail.com?subject=Bestilling af catering til arrangement' text='Bestil catering' />
             </div>
             <div className={css.image}>
               <div className={css.landscape}><Image src={Buffet} layout='responsive' sizes='66vw' quality='100' priority='true' placeholder='blur' /></div>
@@ -65,7 +65,7 @@ export default function Catering() {
         <div className={css.cta}>
           <h2>Klar til at bestille?</h2>
           <p>Få et uforpligtende tilbud på mad til jeres næste arrangement ved at sende os en mail vha. knappen nedenunder. Som udgangspunkt skal du vælge fra vores faste menuer, men du er altid velkommen til at forespørge ændringer i retterne. Vi kontakter jer efterfølgende indenfor 24 timer.</p>
-          <WhiteButton href='/kontakt' text='Bestil din mad' />
+          <WhiteButton href='mailto:chefjendk@gmail.com?subject=Forespørgsel på mad til arrangement' text='Bestil din mad' />
           <span>Eller ring til os på <Link href='tel:+4561766988'><a>+45 61 76 69 88</a></Link></span>
         </div>
         <How title='Sådan foregår vores catering'/>

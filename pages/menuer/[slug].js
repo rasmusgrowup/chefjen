@@ -141,7 +141,7 @@ export default function Menu({ menu }) {
             }
             <span className={css.price}>{menu.pris},- kr./kuvert*</span>
             <span className={css.titleTerms} style={{opacity: '0.25', display: 'block', marginBottom: '1rem'}}>*prisen på vores menuer kan variere</span>
-            <Button href='mailto:chefjendk@gmail.com' text='Bestil menuen' />
+            <Button href='mailto:chefjendk@gmail.com?subject=Bestilling af menu' text='Bestil menuen' />
           </div>
           <div className={css.menuImage}>
             <Image src={menu.billede.url} width='500' height='625' objectFit='cover' objectPosition='center' quality='80'/>

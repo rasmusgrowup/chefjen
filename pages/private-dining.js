@@ -44,7 +44,7 @@ export default function PrivateDining() {
               </p>
               <p style={{ display: 'none' }}>Der er plads til dine ønsker til menuen, så lad os høre hvad du drømmer om.</p>
               <div className={css.menuPrice}>600,- kr. pr. kuvert</div>
-              <Button href='mailto:chefjendk@gmail.com' text='Bestil private dining' />
+              <Button href='mailto:chefjendk@gmail.com?subject=Forespørgsel på booking af Private Dining' text='Bestil private dining' />
             </div>
             <div className={css.image}>
               <div className={css.portrait}><Image src={Jen} layout='responsive' sizes='50vw' quality='100' priority='true' placeholder='blur' /></div>
@@ -88,7 +88,7 @@ export default function PrivateDining() {
         <div className={css.cta}>
           <h2>Klar til at bestille?</h2>
           <p>Få et uforpligtende tilbud på vores private dining koncept ved at sende os en mail vha. knappen nedenunder. Vi kontakter jer efterfølgende indenfor 24 timer. Du er også velkommen til at ringe til os.</p>
-          <WhiteButton href='mailto:chefjendk@gmail.com' text='Bestil private dining' />
+          <WhiteButton href='mailto:chefjendk@gmail.com?subject=Forespørgsel på bestilling af Private Dining' text='Bestil private dining' />
           <span>Eller ring til os på <Link href='tel:+4561766988'><a>+45 61 76 69 88</a></Link></span>
         </div>
         <How title='Sådan foregår private dining'/>
