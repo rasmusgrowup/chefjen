@@ -105,12 +105,12 @@ export default function Home({ menus }) {
           <div className={css.leftContent}>
             <h3>Frokostordning</h3>
             <p>Vi tilbyder nemme og lækre frokostordninger til virksomheder i Aalborg omegn. Tegn et fast abonnement på frokosten, og få den leveret hver dag til en god pris</p>
-            <Button href='/kontakt' text='Få et tilbud' />
+            <Button href='mailto:chefjendk@gmail.com?subject=Forespørgsel på Frokostordning' text='Få et tilbud' />
           </div>
           <div className={css.rightContent}>
             <h3>Selskabslokaler</h3>
             <p>Vores smukke lokaler kan danne ramme om jeres næste festlige begivenhed. Ring til os i dag for et uforpligtende tilbud på vores selskabslokaler</p>
-            <Button href='/kontakt' text='Kontakt os i dag' />
+            <Button href='mailto:chefjendk@gmail.com?subject=Forespørgsel på Selskabslokaler i Aabybro' text='Kontakt os i dag' />
           </div>
         </div>
       </section>
