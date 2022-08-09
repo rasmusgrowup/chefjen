@@ -26,8 +26,8 @@ export default function Footer() {
           </ul>
           <span className={css.cvr}>©{new Date().getFullYear()} ChefJen — CVR 42858609</span>
           <ul className={css.socials}>
-            <li><Link href='/'><a><Image src={Facebook} width='18' height='18'/></a></Link></li>
-            <li><Link href='/'><a><Image src={Instagram} width='18' height='18' /></a></Link></li>
+            <li><Link href='https://www.facebook.com/Chefjendk' passHref><a target="_blank"><Image src={Facebook} width='18' height='18'/></a></Link></li>
+            <li><Link href='https://www.instagram.com/chefjendk/' passHref><a target="_blank"><Image src={Instagram} width='18' height='18' /></a></Link></li>
           </ul>
         </div>
       </footer>
