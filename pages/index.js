@@ -48,7 +48,6 @@ export async function getStaticProps() {
 }
 
 export default function Home({ menus }) {
-  console.log({ menus })
 
   return (
     <>

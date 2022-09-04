@@ -54,8 +54,19 @@ export default function MenuList() {
         <Link href='/selskabslokaler'><a style={{ textDecoration: `${router.pathname == '/selskabslokaler' ? 'underline' : '' }`}}>Selskabslokaler</a></Link>
       </li>
       <li>
+        <Link href='https://weorder.xyz/chefjen' passHref>
+          <a target="_blank">Bestil takeaway</a>
+        </Link>
+      </li>
+      <li>
+        <Link href='https://booking.quickorder.io/book/4cd550f7-f2ca-45cc-b600-af9213fb894e' passHref>
+          <a target="_blank">Booking</a>
+        </Link>
+      </li>
+      <li>
         <Link href='/om-chefjen'><a style={{ textDecoration: `${router.pathname == '/om-chefjen' ? 'underline' : '' }`}}>Om Os</a>
-      </Link></li>
+        </Link>
+      </li>
     </>
   )
 }

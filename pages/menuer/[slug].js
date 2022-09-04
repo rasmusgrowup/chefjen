@@ -108,7 +108,6 @@ export async function getStaticPaths() {
 export default function Menu({ menu }) {
   const router = useRouter()
   const menuRef = useRef(null);
-  console.log({ menu })
 
   useEffect(() => {
     gsap.set(menuRef.current, {

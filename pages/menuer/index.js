@@ -38,7 +38,6 @@ export async function getStaticProps() {
 }
 
 export default function Menuer({ menus }) {
-  console.log({ menus })
 
   return (
     <>
