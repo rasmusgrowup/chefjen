@@ -47,13 +47,13 @@ export default function Menuer({ menus }) {
           <div className={css.inner}>
           {menus.map(({ id, slug, titel, pris, billede, beskrivelse }) => (
             <div className={css.menuWrapper} key={id}>
-              <Link href={`/menuer/${slug}`}><a>
-                <Image src={billede.url} width='370' height='300' objectFit='cover' objectPosition='center' quality='80'/>
-                <h3>{titel}</h3>
-                <p>{beskrivelse.text}</p>
-                <span className={css.price}>{pris},- kr./kuvert*</span>
-                <span className={css.titleTerms} style={{opacity: '0.25'}}>*prisen på vores menuer kan variere</span>
-              </a></Link>
+              <Link href={`/menuer/${slug}`}>
+                <a>
+                  <Image src={billede.url} width='370' height='300' objectFit='cover' objectPosition='center' quality='80'/>
+                  <h3>{titel}</h3>
+                  <p>{beskrivelse.text}</p>
+                </a>
+              </Link>
             </div>
           ))}
           </div>
