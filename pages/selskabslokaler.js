@@ -7,8 +7,8 @@ import Button from '../components/Button'
 import WhiteButton from '../components/WhiteButton'
 import css from '../styles/selskabslokaler.module.scss'
 
-import Lokale1 from '../public/ButikMockup.jpg'
-import Lokale2 from '../public/ButikMockup_2.jpg'
+import Lokale1 from '../public/facade_bygning_alt.jpg'
+import Lokale2 from '../public/bord_2.jpg'
 import Jen from '../public/Private_dining_Jen_bw.jpg'
 import Jen2 from '../public/Jen.jpg'
 import Buffet from '../public/Buffet_portrait.jpg'
@@ -60,7 +60,7 @@ export default function PrivateDining() {
               <h2>Posttorvet - by Chef Jen</h2>
               <p><strong>Selskabslokaler i hjertet af Aabybro</strong></p>
               <p>Hos Chef Jen tilbyder vi mad til alle dine arrangementer, både i vores egne lokaler og ud af huset.</p>
-              <p><b>Step 1</b><br/>Før du går i gang med at bestille ChefJen til din begivenhed, er det vigtigt at få have nogenlunde styr på hvor mange gæster der kommer til spisning, hvornår maden skal leveres, og om der er nogle specielle ting i forhold til maden, som vi skal tage hensyn til.</p>
+              <p><b>Step 1</b><br/>Før du går i gang med at bestille ChefJen til din begivenhed, er det vigtigt at have nogenlunde styr på hvor mange gæster der kommer til spisning, hvornår maden skal leveres, og om der er nogle specielle ting i forhold til maden, som vi skal tage hensyn til.</p>
               <p><b>Step 2</b><br/>Lad os mødes! Så vi sammen kan gennemgå vores menuforslag til jer og det praktiske detaljer til jeres specielle dag.</p>
               <p>&quot;Vi tilpasser og skræddersyer menuen, så det passer til det i ønsker&quot;</p>
               </div>
