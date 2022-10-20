@@ -54,7 +54,7 @@ export default function MenuList() {
         <Link href='/selskabslokaler'><a style={{ textDecoration: `${router.pathname == '/selskabslokaler' ? 'underline' : '' }`}}>Selskabslokaler</a></Link>
       </li>
       <li>
-        <Link href='https://weorder.xyz/chefjen' passHref>
+        <Link href='https://order.weorder.com/app/chefjen?skipProfile=true' passHref>
           <a target="_blank">Bestil takeaway</a>
         </Link>
       </li>
