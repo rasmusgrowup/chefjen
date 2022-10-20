@@ -23,6 +23,7 @@ export default function Footer() {
         <div className={css.footerBottom}>
           <ul className={css.terms}>
             <li><Link href='/handelsbetingelser'><a>Handelsbetingelser</a></Link></li>
+            <li><Link href='https://www.findsmiley.dk/1247207'><a target='_blank'>Smiley</a></Link></li>
           </ul>
           <span className={css.cvr}>©{new Date().getFullYear()} ChefJen — CVR 42858609</span>
           <ul className={css.socials}>
